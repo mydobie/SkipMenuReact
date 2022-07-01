@@ -4,7 +4,6 @@
 // Normally there isn't a need to modify it
 import React, { ReactElement } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { FeatureFlagsUI } from 'feature-flags/react';
 import { useGetVersion } from '../js/getVersion';
 
 const Version = (/* props */): ReactElement => {
@@ -52,22 +51,7 @@ const Version = (/* props */): ReactElement => {
                 {version.bootstrap}
               </li>
             ) : null}
-            {version.featureFlags ? (
-              <li>
-                <strong>Feature Flags: </strong>
-                {version.featureFlags}
-              </li>
-            ) : null}
           </ul>
-        </Col>
-      </Row>
-      <hr />
-      <Row>
-        <Col>
-          <h1>Feature flags</h1>
-          <p>The current status of feature flags:</p>
-          {/* EXAMPLE: List feature flags (read only) */}
-          <FeatureFlagsUI readonly />
         </Col>
       </Row>
     </>
