@@ -20,8 +20,8 @@ jobs:
       - name: Unit Tests
         run: npm run test
 
-      - name: Unit test coverage
-        run: npm run checkCoverage
+      # - name: Unit test coverage
+      #   run: npm run checkCoverage
 
       - name: Linting
         run: npm run lint

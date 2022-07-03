@@ -149,7 +149,7 @@ export class SkipMenu {
     this.getConfig = this.getConfig.bind(this);
   }
 
-  static version = 'VERSION CANNOT BE DETERMINED'; // Note - this is replaced on build
+  static version = 'v1.3.0'; // Note - this is replaced on build
 
   getConfig() {
     return this.config;
