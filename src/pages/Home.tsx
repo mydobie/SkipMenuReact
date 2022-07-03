@@ -3,6 +3,7 @@
 
 import React, { ReactElement } from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
+import SkipMenu from '../SkipMenuComponents/';
 
 // *** Main component ***
 const Home = (): ReactElement => (
@@ -14,9 +15,15 @@ const Home = (): ReactElement => (
           <p>This is the home page for an application</p>
         </Card.Body>
       </Card>
-      <p>
+      <p id='testerWrapper'>
         This project can be used as template when starting other React projects.
       </p>
+      <SkipMenu
+        theme='bootstrap'
+        landmarks='main'
+        text={{ buttonLabel: 'hello world' }}
+        useAccessKey
+      />
     </Col>
   </Row>
 );
