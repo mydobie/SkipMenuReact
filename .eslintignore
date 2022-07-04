@@ -10,3 +10,4 @@ react-router-dom.js
 cypress.config.ts
 public/skipMenu
 public/versions.json
+/lib

@@ -54,7 +54,9 @@ Changes:
 
 ## Testing
 
-There are two types of tests for this application: unit and integration tests. Unit tests are written in Jest and test each component of the application in isolation. Integration tests are written in Cypress and test functionality as a user would. Integration tests commonly test multiple components at the same time. If possible, it is advised to work with a product owner when writing integration tests.
+NOTE: Currently there aren't any tests for this application because it a simple wrapper for the SkipMenu script. Once tests are developed, they should lbe following the following guidelines:
+
+There are two types of tests for this application: unit and functional tests. Unit tests are written in Jest and test each component of the application in isolation. Functional tests are written in Cypress and test functionality as a user would. Integration tests commonly test multiple components at the same time. If possible, it is advised to work with a product owner when writing integration tests.
 
 ### Unit tests
 
@@ -70,7 +72,7 @@ Text matching tests should be avoided, the use of [testIds](https://testing-libr
 
 Because of the nature of the Node, Jest, React, and Redux (if used) environment, a very high level of test coverage (at least 85% lines covered) is expected.
 
-### Integration tests
+### End to End (aka Functional) tests
 
 The focus of integration tests is to test the functionality of the application as a user would, so covering all use cases is important. Tests are written using Cypress and should be saved in the `/cypress/integration` directory.
 

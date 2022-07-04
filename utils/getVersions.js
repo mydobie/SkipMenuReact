@@ -8,9 +8,7 @@ const packagedata = fs.readFileSync('package.json');
 const packageJson = JSON.parse(packagedata);
 
 const versions = {
-  bootstrap: packageJson.dependencies.bootstrap,
-  hello: 'world',
-  featureFlags: packageJson.dependencies['feature-flags'],
+  bootstrap: packageJson.devDependencies.bootstrap,
 };
 
 fs.writeFileSync(
