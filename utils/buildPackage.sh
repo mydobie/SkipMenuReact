@@ -5,6 +5,7 @@ NODE_ENV=production
 rm -rf $distFolder
 # mkdir $distFolder
 npm run buildts
+cp -r src/SkipMenuComponents/scss $distFolder/scss
 node utils/resetPackageJson.js
 node utils/minifyFilesInDir.js
 
