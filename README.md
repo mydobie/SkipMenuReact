@@ -1,4 +1,4 @@
-# skipmenu-react
+# SkipMenuReact
 
 ## Description:
 
@@ -23,7 +23,7 @@ The above steps will create a `.tgz` file in the root of this project. Move this
 
 ```
 dependencies: {
-  "@mydobie/skipmenu-react": "file:./path_to_tgz_file.tgz",
+  "@mydobie/skipmenureact": "file:./path_to_tgz_file.tgz",
 }
 ```
 
@@ -37,7 +37,7 @@ Then run `npm install`.
 
 ```
 dependencies: {
-  "@mydobie/skipmenu-react": "file:./path_to_tgz_file.tgz",
+  "@mydobie/skipmenureact": "file:./path_to_tgz_file.tgz",
 }
 ```
 
@@ -52,7 +52,7 @@ There are some tags in the skipMenuReact repository that contain the package cod
 
 ```
 dependencies: {
-  "@mydobie/skipmenu-react": "mydobie/skipmenureact/#npmbuild1.0.0",
+  "@mydobie/skipmenureact": "mydobie/skipmenureact/#npmbuild1.0.0",
 }
 ```
 
@@ -79,7 +79,7 @@ The same options are available as in the [skipMenu](https://github.com/mydobie/s
 For example:
 
 ```
-import SkipMenu from 'skipmenu-react';
+import SkipMenu from 'skipmenureact';
 
 
 <SkipMenu theme='bootstrap' useAccessKey text={{buttonLabel: 'Table of Contents'}} />
@@ -234,3 +234,4 @@ When a pull request is merged into the `main` branch, the following is automatic
 
 **Note** that approvers will need to manually update the [release](https://github.com/mydobie/skipMenuReact/releases) text. See [CONTRIBUTING](CONTRIBUTING.md) on what is required for the release text.
 Based on template version 0.0.2
+Based on template version 1.0.0

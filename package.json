@@ -1,15 +1,15 @@
 {
-  "name": "skipmenu-react",
+  "name": "skipmenureact",
   "description": "",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
-  "homepage": "https://mydobie.github.io/SkipMenuReact/",
+  "homepage": "https://mydobie.github.io/skipmenureact/",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "repository": "https://github.com/mydobie/SkipMenuReact",
+  "repository": "https://github.com/mydobie/skipmenureact",
   "engines": {
     "node": "16 || 18"
   },
