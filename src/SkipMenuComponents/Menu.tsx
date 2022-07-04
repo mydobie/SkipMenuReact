@@ -4,10 +4,10 @@ import { SkipMenu, SkipMenuConfig } from './js/skipMenu';
 const Menu = (props: SkipMenuConfig): ReactElement => {
   const menuRef = React.useRef(null);
 
+  const [skipMenu, setSkipMenu] = React.useState<SkipMenu | null>(null);
+
   React.useEffect(() => {
     const skipMenuProps: SkipMenuConfig = {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
       attachTo: menuRef.current,
       reloadOnChange: true,
     };
@@ -16,11 +16,14 @@ const Menu = (props: SkipMenuConfig): ReactElement => {
       // @ts-ignore
       skipMenuProps[key] = props[key];
     });
-    const skipMenu = new SkipMenu(skipMenuProps);
-    skipMenu.init();
+    const newSkipMenu = new SkipMenu(skipMenuProps);
+    newSkipMenu.init();
+    setSkipMenu(newSkipMenu);
 
     return function cleanup() {
-      skipMenu.remove();
+      if (skipMenu !== null) {
+        skipMenu.remove();
+      }
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
