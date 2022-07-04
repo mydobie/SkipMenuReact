@@ -233,3 +233,4 @@ When a pull request is merged into the `main` branch, the following is automatic
 **Note** that these series of actions can take a while. Check the [actions page](https://github.com/mydobie/skipMenuReact/actions) to see if there are any actions still running.
 
 **Note** that approvers will need to manually update the [release](https://github.com/mydobie/skipMenuReact/releases) text. See [CONTRIBUTING](CONTRIBUTING.md) on what is required for the release text.
+Based on template version 0.0.2
