@@ -30,7 +30,7 @@ jobs:
         run: npm run npmAudit
 
       - name: Can module be built
-        run: npm run build:ci
+        run: npm run buildPackage:ci
 
       - name: Cypress run
         uses: cypress-io/github-action@v3
