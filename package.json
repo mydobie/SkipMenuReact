@@ -1,7 +1,7 @@
 {
   "name": "skipmenu-react",
   "description": "",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
