@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/998.9e3fffec.chunk.js","mappings":"uMAKA,EADmB,kBAAM","sources":["SkipMenuComponents/Patternfly.tsx"],"sourcesContent":["import React from 'react';\n\nimport './scss/skipMenu-patternfly.scss';\n\nconst Patternfly = () => <></>;\nexport default Patternfly;\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/348.70c87c84.chunk.js","mappings":"uMAKA,EADkB,kBAAM","sources":["SkipMenuComponents/Bootstrap.tsx"],"sourcesContent":["import React from 'react';\n\nimport './scss/skipMenu-bootstrap.scss';\n\nconst Bootstrap = () => <></>;\nexport default Bootstrap;\n"],"names":[],"sourceRoot":""}

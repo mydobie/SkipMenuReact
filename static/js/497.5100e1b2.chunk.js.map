@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/497.5100e1b2.chunk.js","mappings":"uMAKA,EADa,kBAAM","sources":["SkipMenuComponents/Full.tsx"],"sourcesContent":["import React from 'react';\n\nimport './scss/skipMenu-full.scss';\n\nconst Full = () => <></>;\nexport default Full;\n"],"names":[],"sourceRoot":""}
