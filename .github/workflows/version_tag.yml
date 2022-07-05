@@ -52,9 +52,9 @@ jobs:
         with:
           skip-tag: 'true'
 
-      - name: 'Add version to readme'
-        if: ${{github.event.repository.name}} == 'simple-react-app'
-        run: echo 'UPDATING' && node ./utils/addVersionToReadMe.js
+      # - name: 'Add version to readme'
+      #   if: ${{github.event.repository.name}} == 'simple-react-app'
+      #   run: echo 'UPDATING' && node ./utils/addVersionToReadMe.js
 
       - name: 'Commit new Read Me'
         if: ${{github.event.repository.name}} == 'simple-react-app'
