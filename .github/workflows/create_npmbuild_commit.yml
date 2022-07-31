@@ -5,6 +5,7 @@ on:
       - 'Publish NPM Package'
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   commit:
