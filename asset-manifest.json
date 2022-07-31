@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/skipmenureact/static/css/main.5b9c54e7.css",
-    "main.js": "/skipmenureact/static/js/main.18434f32.js",
-    "static/css/348.b0bf29d0.chunk.css": "/skipmenureact/static/css/348.b0bf29d0.chunk.css",
+    "main.js": "/skipmenureact/static/js/main.be056f04.js",
+    "static/css/348.9242726b.chunk.css": "/skipmenureact/static/css/348.9242726b.chunk.css",
     "static/js/348.70c87c84.chunk.js": "/skipmenureact/static/js/348.70c87c84.chunk.js",
-    "static/css/998.f2573670.chunk.css": "/skipmenureact/static/css/998.f2573670.chunk.css",
+    "static/css/998.68a920a7.chunk.css": "/skipmenureact/static/css/998.68a920a7.chunk.css",
     "static/js/998.9e3fffec.chunk.js": "/skipmenureact/static/js/998.9e3fffec.chunk.js",
-    "static/css/497.34b1fee2.chunk.css": "/skipmenureact/static/css/497.34b1fee2.chunk.css",
+    "static/css/497.8b671aa5.chunk.css": "/skipmenureact/static/css/497.8b671aa5.chunk.css",
     "static/js/497.5100e1b2.chunk.js": "/skipmenureact/static/js/497.5100e1b2.chunk.js",
     "index.html": "/skipmenureact/index.html",
     "main.5b9c54e7.css.map": "/skipmenureact/static/css/main.5b9c54e7.css.map",
-    "main.18434f32.js.map": "/skipmenureact/static/js/main.18434f32.js.map",
-    "348.b0bf29d0.chunk.css.map": "/skipmenureact/static/css/348.b0bf29d0.chunk.css.map",
+    "main.be056f04.js.map": "/skipmenureact/static/js/main.be056f04.js.map",
+    "348.9242726b.chunk.css.map": "/skipmenureact/static/css/348.9242726b.chunk.css.map",
     "348.70c87c84.chunk.js.map": "/skipmenureact/static/js/348.70c87c84.chunk.js.map",
-    "998.f2573670.chunk.css.map": "/skipmenureact/static/css/998.f2573670.chunk.css.map",
+    "998.68a920a7.chunk.css.map": "/skipmenureact/static/css/998.68a920a7.chunk.css.map",
     "998.9e3fffec.chunk.js.map": "/skipmenureact/static/js/998.9e3fffec.chunk.js.map",
-    "497.34b1fee2.chunk.css.map": "/skipmenureact/static/css/497.34b1fee2.chunk.css.map",
+    "497.8b671aa5.chunk.css.map": "/skipmenureact/static/css/497.8b671aa5.chunk.css.map",
     "497.5100e1b2.chunk.js.map": "/skipmenureact/static/js/497.5100e1b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b9c54e7.css",
-    "static/js/main.18434f32.js"
+    "static/js/main.be056f04.js"
   ]
 }
