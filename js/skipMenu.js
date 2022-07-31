@@ -125,7 +125,7 @@ var SkipMenu = /** @class */ (function () {
         this.config.mutationObserver = null;
         this._remove();
     };
-    SkipMenu.version = 'v1.3.1'; // Note - this is replaced on build
+    SkipMenu.version = 'v1.3.2'; // Note - this is replaced on build
     return SkipMenu;
 }());
 exports.SkipMenu = SkipMenu;
